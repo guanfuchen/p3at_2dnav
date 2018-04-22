@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="rosaria" type="RosAria" name="RosAria" output="screen">
+    <remap from="/RosAria/cmd_vel" to="/cmd_vel" />
+<!--
+    <remap from="/RosAria/cmd_vel" to="/cmd_vel" />
+-->
+  </node>
+</launch>
