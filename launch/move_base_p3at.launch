@@ -10,7 +10,10 @@
     <rosparam file="$(find p3at_2dnav)/config/base_local_planner_params_p3at.yaml" command="load" />
   </node>
 
+<!--
   <node name="map_server" pkg="map_server" type="map_server" args="$(find p3at_2dnav)/maps/test_map.yaml"/>
+-->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find p3at_2dnav)/maps/hpec.yaml"/>
 
   <include file="$(find amcl)/examples/amcl_omni.launch" />
 
