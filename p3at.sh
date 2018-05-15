@@ -3,10 +3,11 @@ roslaunch p3at_2dnav robot_p3at.launch
 
 
 screen -S sick
-rosparam set sicklms/port /dev/ttyUSB1
-rosparam set sicklms/baud 38400
-rosparam set sicklms/frame_id base_laser
-rosrun sicktoolbox_wrapper sicklms
+# rosparam set sicklms/port /dev/ttyUSB1
+# rosparam set sicklms/baud 38400
+# rosparam set sicklms/frame_id base_laser
+# rosrun sicktoolbox_wrapper sicklms
+roslaunch p3at_2dnav sick_lms.launch
 
 
 screen -S gmapping
