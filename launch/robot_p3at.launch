@@ -6,7 +6,8 @@
 -->
   </node>
 
-  <node pkg="tf" type="static_transform_publisher" name="base_laser_tf_base_link_broadcaster" args="0.14 0 0.18 0 0 0 1 /base_link /base_laser 100" />
+  <node pkg="tf" type="static_transform_publisher" name="base_laser_tf_base_link_broadcaster" args="0.2 0 0.0 0 0 0 1 /base_link /base_laser 100" />
+  <node pkg="tf" type="static_transform_publisher" name="sonar_tf_base_link_broadcaster" args="0.0 0 0.0 0 0 0 1 /base_link /sonar 100" />
 <!--
   <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 /map /odom 100" />
 -->
