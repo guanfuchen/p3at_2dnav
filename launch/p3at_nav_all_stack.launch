@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find p3at_2dnav)/launch/sick_lms.launch" />
+  <include file="$(find p3at_2dnav)/launch/robot_p3at.launch" />
+  <include file="$(find p3at_2dnav)/launch/slam_gmapping.launch" />
+  <include file="$(find p3at_2dnav)/launch/move_base_p3at_teb.launch" />
+</launch>

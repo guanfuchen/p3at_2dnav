@@ -8,7 +8,7 @@ dictitems:
       footprint_padding: 0.01
       groups: !!python/object/new:dynamic_reconfigure.encoding.Config
         state: []
-      height: 10
+      height: 6
       id: 0
       name: Default
       origin_x: 0.0
@@ -17,21 +17,21 @@ dictitems:
         state: []
       parent: 0
       publish_frequency: 10.0
-      resolution: 2.0
+      resolution: 5.0
       robot_radius: 0.46
       state: true
       transform_tolerance: 0.3
       type: ''
       update_frequency: 2.0
-      width: 10
+      width: 6
     state: []
-  height: 10
+  height: 6
   origin_x: 0.0
   origin_y: 0.0
   publish_frequency: 10.0
-  resolution: 2.0
+  resolution: 5.0
   robot_radius: 0.46
   transform_tolerance: 0.3
   update_frequency: 2.0
-  width: 10
+  width: 6
 state: []
